@@ -1,0 +1,15 @@
+Wirehead Echo module by FNS Pedals
+
+Moderate difficulty, not for beginners.
+
+Problems:
+Module cut off too many low tones, bass was almost gone. The solution was to increase the capacity of the input stage from 47n to 1u.
+For some reason I had a number of cold soldered connectors. They looked good, but were'nt. It did cost a couple of hours just to find that.
+The input stage was using a BC 549c which I replace by a FET 2N5457 (DSG pin orientation), most other FET with that pin ordering will probably do.
+
+Lesson learnt: Do not solder at the gate of a FET when it is powered on... Lost 2 FETS by that. Plus the time to find out, that they were fried.
+
+It is mandatory to find a blance of the signal amplitude going into the distortion and the amplitude going into feedback.
+
+ 
+
